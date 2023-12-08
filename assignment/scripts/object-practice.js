@@ -1,4 +1,4 @@
-console.log('***** Object Practice *****')
+console.log("***** Object Practice *****");
 
 // Add the required code to complete the tasks below
 
@@ -14,9 +14,9 @@ const me = {
   lastName: "Fuglestad",
   hasSiblings: true,
   shoeCount: 3,
-  favThreeFoods: [ 'Curry', 'Sushi', 'Steak']
+  favThreeFoods: ["Curry", "Sushi", "Steak"],
 };
-console.log('A little about me:', me);
+console.log("A little about me:", me);
 
 /* 2. Accessing object properties.
   - Create a variable called fullName 
@@ -27,15 +27,12 @@ console.log('A little about me:', me);
 let fullName = me.firstName + " " + me.lastName;
 console.log("My full name is : ", fullName);
 
-
-
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
 console.log(me.favThreeFoods[0]);
 console.log(me.favThreeFoods[2]);
-
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
